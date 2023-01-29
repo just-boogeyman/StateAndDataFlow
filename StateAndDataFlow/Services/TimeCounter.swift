@@ -2,12 +2,11 @@
 //  TimeCounter.swift
 //  StateAndDataFlow
 //
-//  Created by Ярослав Кочкин on 17.01.2023.
+//  Created by Ярослав Кочкин on 28.01.2023.
 //
 
 import Foundation
 import Combine
-
 
 class TimeCounter: ObservableObject {
     
@@ -26,8 +25,7 @@ class TimeCounter: ObservableObject {
                 repeats: true
             )
         }
-        
-        buttonDidTupped()
+        buttonDidTapped()
     }
     
     @objc private func updateCounter() {
@@ -46,7 +44,7 @@ class TimeCounter: ObservableObject {
         timer = nil
     }
     
-    private func buttonDidTupped() {
+    private func buttonDidTapped() {
         if buttonTitle == "Reset" {
             counter = 3
             buttonTitle = "Start"

@@ -8,27 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		04300FC92976DD5D0074CB3C /* StateAndDataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04300FC82976DD5D0074CB3C /* StateAndDataFlowApp.swift */; };
-		04300FCB2976DD5D0074CB3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04300FCA2976DD5D0074CB3C /* ContentView.swift */; };
+		04300FCB2976DD5D0074CB3C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04300FCA2976DD5D0074CB3C /* TimerView.swift */; };
 		04300FCD2976DD5E0074CB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04300FCC2976DD5E0074CB3C /* Assets.xcassets */; };
 		04300FD02976DD5E0074CB3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04300FCF2976DD5E0074CB3C /* Preview Assets.xcassets */; };
-		04300FD72976E2C90074CB3C /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04300FD62976E2C90074CB3C /* TimeCounter.swift */; };
-		04300FD92976E9C20074CB3C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04300FD82976E9C20074CB3C /* RegisterView.swift */; };
-		04300FDB2976EA800074CB3C /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04300FDA2976EA800074CB3C /* UserManager.swift */; };
-		04300FDD2976EC700074CB3C /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04300FDC2976EC700074CB3C /* StarterView.swift */; };
-		04A588AB29783C7100317C1F /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A588AA29783C7100317C1F /* TextFieldView.swift */; };
+		043BA5322986822500B31429 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BA5312986822500B31429 /* DataManager.swift */; };
+		043BA53729868D1600B31429 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BA53629868D1600B31429 /* ButtonView.swift */; };
+		043BA53B29868F7D00B31429 /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BA53A29868F7D00B31429 /* ButtonAppearanceModifier.swift */; };
+		04DE0B0F2985731F0011D7F1 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE0B0E2985731F0011D7F1 /* TimeCounter.swift */; };
+		04DE0B1329857D1F0011D7F1 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE0B1229857D1F0011D7F1 /* RegisterView.swift */; };
+		04DE0B1529857E350011D7F1 /* UserManaget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE0B1429857E350011D7F1 /* UserManaget.swift */; };
+		04DE0B172985808A0011D7F1 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE0B162985808A0011D7F1 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04300FC52976DD5D0074CB3C /* StateAndDataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateAndDataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04300FC82976DD5D0074CB3C /* StateAndDataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndDataFlowApp.swift; sourceTree = "<group>"; };
-		04300FCA2976DD5D0074CB3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04300FCA2976DD5D0074CB3C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		04300FCC2976DD5E0074CB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04300FCF2976DD5E0074CB3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		04300FD62976E2C90074CB3C /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
-		04300FD82976E9C20074CB3C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
-		04300FDA2976EA800074CB3C /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
-		04300FDC2976EC700074CB3C /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
-		04A588AA29783C7100317C1F /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		043BA5312986822500B31429 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		043BA53629868D1600B31429 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		043BA53A29868F7D00B31429 /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
+		04DE0B0E2985731F0011D7F1 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		04DE0B1229857D1F0011D7F1 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		04DE0B1429857E350011D7F1 /* UserManaget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManaget.swift; sourceTree = "<group>"; };
+		04DE0B162985808A0011D7F1 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,15 +65,12 @@
 		04300FC72976DD5D0074CB3C /* StateAndDataFlow */ = {
 			isa = PBXGroup;
 			children = (
-				04300FC82976DD5D0074CB3C /* StateAndDataFlowApp.swift */,
-				04300FCA2976DD5D0074CB3C /* ContentView.swift */,
-				04300FD82976E9C20074CB3C /* RegisterView.swift */,
-				04300FCC2976DD5E0074CB3C /* Assets.xcassets */,
+				043BA52E298676AB00B31429 /* App */,
+				043BA52D298676A000B31429 /* Views */,
+				043BA52C2986769000B31429 /* Services */,
+				043BA530298676D500B31429 /* Resources */,
 				04300FCE2976DD5E0074CB3C /* Preview Content */,
-				04300FDA2976EA800074CB3C /* UserManager.swift */,
-				04300FDC2976EC700074CB3C /* StarterView.swift */,
-				04300FD62976E2C90074CB3C /* TimeCounter.swift */,
-				04A588AA29783C7100317C1F /* TextFieldView.swift */,
+				043BA52F298676B500B31429 /* Modifiers */,
 			);
 			path = StateAndDataFlow;
 			sourceTree = "<group>";
@@ -80,6 +81,51 @@
 				04300FCF2976DD5E0074CB3C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		043BA52C2986769000B31429 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04DE0B0E2985731F0011D7F1 /* TimeCounter.swift */,
+				04DE0B1429857E350011D7F1 /* UserManaget.swift */,
+				043BA5312986822500B31429 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		043BA52D298676A000B31429 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04DE0B162985808A0011D7F1 /* StarterView.swift */,
+				04DE0B1229857D1F0011D7F1 /* RegisterView.swift */,
+				04300FCA2976DD5D0074CB3C /* TimerView.swift */,
+				043BA53629868D1600B31429 /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		043BA52E298676AB00B31429 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04300FC82976DD5D0074CB3C /* StateAndDataFlowApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		043BA52F298676B500B31429 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				043BA53A29868F7D00B31429 /* ButtonAppearanceModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		043BA530298676D500B31429 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04300FCC2976DD5E0074CB3C /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,12 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04300FD72976E2C90074CB3C /* TimeCounter.swift in Sources */,
-				04300FD92976E9C20074CB3C /* RegisterView.swift in Sources */,
-				04A588AB29783C7100317C1F /* TextFieldView.swift in Sources */,
-				04300FDD2976EC700074CB3C /* StarterView.swift in Sources */,
-				04300FCB2976DD5D0074CB3C /* ContentView.swift in Sources */,
-				04300FDB2976EA800074CB3C /* UserManager.swift in Sources */,
+				043BA53B29868F7D00B31429 /* ButtonAppearanceModifier.swift in Sources */,
+				04DE0B0F2985731F0011D7F1 /* TimeCounter.swift in Sources */,
+				04DE0B1329857D1F0011D7F1 /* RegisterView.swift in Sources */,
+				043BA53729868D1600B31429 /* ButtonView.swift in Sources */,
+				04DE0B172985808A0011D7F1 /* StarterView.swift in Sources */,
+				04300FCB2976DD5D0074CB3C /* TimerView.swift in Sources */,
+				04DE0B1529857E350011D7F1 /* UserManaget.swift in Sources */,
+				043BA5322986822500B31429 /* DataManager.swift in Sources */,
 				04300FC92976DD5D0074CB3C /* StateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
